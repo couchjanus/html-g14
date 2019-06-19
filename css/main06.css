@@ -95,17 +95,6 @@ a {
     text-decoration: none;
 }
   
-a:link {
-    color: #88c0d0;
-}
-  
-a:visited {
-    color: #5e81ac;
-}
-  
-a:hover, a:focus {
-    text-decoration: underline;
-}
 
 .navbar {
     width: 100%;
@@ -181,10 +170,10 @@ p {
     margin: 0.5em;
 }
 
+
 .sidebar h3 {
 	text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1em;
+	letter-spacing: 1px;	
 }
 .sidebar .widget { 
     margin-bottom: 1.2em; 
@@ -254,16 +243,20 @@ p {
     list-style: none;
 }
 
-
 .float-right  {
     float: right;   
     margin: 0 0 0 15px;
     width: 300px;
 }
 
+
+
 .float-left {
     float: left;   
     margin: 0 15px 0 0;
     width: 300px;
 }
+ 
+ 
+ 
  

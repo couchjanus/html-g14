@@ -1,12 +1,5 @@
 /* main.css */
 
-/* a. Webfonts and Icon fonts
-*/
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800i&display=swap&subset=cyrillic-ext");
-
-
-@import url("../fontawesome/css/all.min.css");
 
 /* b. Reset
       Adapted from:
@@ -53,10 +46,6 @@ html {
     font-size: 16px;
 }
   
-html, * {
-    font-family: 'Open Sans', sans-serif;
-}
-  
 body {
     margin: 0;
     color: #2e3440;
@@ -94,18 +83,6 @@ strong {
 a {
     text-decoration: none;
 }
-  
-a:link {
-    color: #88c0d0;
-}
-  
-a:visited {
-    color: #5e81ac;
-}
-  
-a:hover, a:focus {
-    text-decoration: underline;
-}
 
 .navbar {
     width: 100%;
@@ -113,7 +90,6 @@ a:hover, a:focus {
 }
 
 .navbar-items {
-    float: right;
     margin-top: 0%;
     padding-right: 2em;
 }
@@ -140,13 +116,11 @@ img {
 
 .main {
     width: 70%;
-    float: left;
     padding: 0 1.5em;
 }
 
 .sidebar {
     width: 30%;
-    float: right;
     padding: 0 1.5em;
 }
 
@@ -181,11 +155,6 @@ p {
     margin: 0.5em;
 }
 
-.sidebar h3 {
-	text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1em;
-}
 .sidebar .widget { 
     margin-bottom: 1.2em; 
 }
@@ -209,8 +178,8 @@ p {
 .sidebar .widget-search .text-search {
 	padding-right: 40px;
 	border:none;
-   width: 100%;
-   min-width: 150px;
+    width: 100%;
+    min-width: 150px;
 }
 
 .container {
@@ -218,12 +187,6 @@ p {
     padding: 0 0.75rem;
     width: 100%;
     
-}
-
-.cf {
-    clear: both;
-    display: block;
-    content: '';
 }
 
 .footer {
@@ -253,17 +216,3 @@ p {
     display: inline-block;
     list-style: none;
 }
-
-
-.float-right  {
-    float: right;   
-    margin: 0 0 0 15px;
-    width: 300px;
-}
-
-.float-left {
-    float: left;   
-    margin: 0 15px 0 0;
-    width: 300px;
-}
- 
