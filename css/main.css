@@ -94,123 +94,10 @@ strong {
 a {
     text-decoration: none;
 }
-  
-a:link {
-    color: #88c0d0;
-}
-  
-a:visited {
-    color: #5e81ac;
-}
-  
-a:hover, a:focus {
-    text-decoration: underline;
-}
-
-.navbar {
-    width: 100%;
-    background: aliceblue;
-}
-
-.navbar-items {
-    float: right;
-    margin-top: 0%;
-    padding-right: 2em;
-}
-
-.logo {
-    margin-left: 2em;
-}
-
-.navbar-items li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 2em;    
-}
-
-.navbar a {
-    font-size: 1.2em;
-}
 
 img {
     max-width: 100%;
     height: auto;
-}
-
-
-.main {
-    width: 70%;
-    float: left;
-    padding: 0 1.5em;
-}
-
-.sidebar {
-    width: 30%;
-    float: right;
-    padding: 0 1.5em;
-}
-
-
-/* blog-post */
-.blog-post {
-	padding-bottom: 0.8em;
-	margin-bottom: 1.8em;
-}
-.blog-post header { 
-    height: auto; 
-}
-
-.blog-post--meta ul {
-	margin: 0.4em 0 1.1em;
-	color: #B7B9BD;
-	line-height: 1.8em;
-}
-
-.blog-post--meta ul li {
-	display: inline;
-	margin: 0;
-	padding: 0;
-}
-
-.blog-post--meta ul li a { 
-    color: #B7B9BD; 
-}
-
-
-p {
-    margin: 0.5em;
-}
-
-.sidebar h3 {
-	text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1em;
-}
-.sidebar .widget { 
-    margin-bottom: 1.2em; 
-}
-.sidebar p { 
-    margin-bottom: 0.8em; 
-}
-.sidebar hr { 
-    margin-bottom: 1.8em; 
-}
-
-.sidebar .widget li {
-    list-style: none;
-}
-
-/* search  */
-.sidebar .widget-search { 
-	padding-top: 0;  
-	margin-bottom: 2rem;
-}
-
-.sidebar .widget-search .text-search {
-	padding-right: 40px;
-	border:none;
-   width: 100%;
-   min-width: 150px;
 }
 
 .container {
@@ -228,11 +115,15 @@ p {
 
 .footer {
     width: 100%;
-}
-
-.footer {
+	padding: 0;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #717171;
+	text-align: center;
+    border-top: 1px solid #CECECE;
     background: #f8f8f8;
-    padding: 4em 0 6em 0;
 }
 
 .footer .copyright {
@@ -266,4 +157,25 @@ p {
     margin: 0 15px 0 0;
     width: 300px;
 }
- 
+
+.footer .footer-socials {
+    margin: 60px 0 20px;
+    text-align: center;
+}
+
+.footer .footer-socials a {
+	display: inline-block;
+	margin-right: 5px;
+	background-color: #002e5b;
+	color: #fff;
+	font-size: 20px;
+	line-height: 45px;
+	width: 45px;
+	height: 45px;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer .footer-socials a:hover {
+    background-color: #fed136;
+    color: #002e5b;
+}
