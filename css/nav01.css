@@ -41,3 +41,27 @@ a, a:hover, a:focus, a:active, a.active {
     background: rgba(188, 202, 206, 0.15);
     text-decoration: underline;
 }
+
+.navbar label {
+    display: none;
+    font-size: 30px;
+    position: fixed;
+    padding: 2px 10px 5px 5px;
+    top: 8px;
+    left: 0;
+    cursor: pointer;
+    z-index: 50;
+}
+
+.navbar input[type="checkbox"] + label {
+    color: #fff;
+} 
+
+.navbar input[type="checkbox"]:checked + label {
+    color: #fed136;
+    font-style: normal;
+} 
+
+.navbar input[type="checkbox"] {
+    display: none;
+}

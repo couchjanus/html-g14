@@ -4,7 +4,7 @@
     text-align: center;
     padding: 6em 0;
     background-attachment: fixed;
-	background-color: #645862;
+	background-color: #025a1ff1;
 	background-image: url("../images/3.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     display: inline-block;
     text-align: center;
     padding: 3em;
-    background: rgba(52, 27, 43, 0.5);
+    background: rgba(02, 64, 23, 0.5);
 }
 
 #banner .inner header {
@@ -64,12 +64,12 @@
 }
 
 /* container */
-
+/* 
 .container {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 /* wrapper */
 
@@ -129,7 +129,7 @@ footer.major {
     color: #fff;
     padding: 5em;
     text-align: center;
-    background-color: #645862;
+    background-color: #025a1ff1;
 }
 
 #order header {
@@ -160,7 +160,7 @@ ul.buttons li {
 }
 
 .button.special {
-    background: #229922;
+    background: #025a1ff1;
     border-color: #229922;
     color: #fff !important;
 }
@@ -184,8 +184,8 @@ ul.buttons li {
 }
 
 .button.special:hover {
-    background: #96dad1 !important;
-    border-color: #96dad1 !important;
+    background: #aea222 !important;
+    border-color: #9e9136 !important;
 }
 
 .wrapper.style2 .button:hover {
@@ -200,7 +200,7 @@ ul.buttons li {
 
 
 .wrapper.style2.special-alt{
-    background-color: #229922;
+    background-color: #025a1ff1;
     background-image: url("../images/overlay.png");
     background-size: cover;
 	color: #fff;
