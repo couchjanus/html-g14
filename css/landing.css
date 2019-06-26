@@ -63,14 +63,6 @@
     background-image: url(../images/bg.jpg);
 }
 
-/* container */
-/* 
-.container {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 /* wrapper */
 
 .wrapper {
@@ -164,6 +156,8 @@ ul.buttons li {
     border-color: #229922;
     color: #fff !important;
 }
+
+
 .button {
     border: solid 1px;
     color: inherit;
@@ -183,6 +177,8 @@ ul.buttons li {
     border-color: inherit;
 }
 
+
+
 .button.special:hover {
     background: #aea222 !important;
     border-color: #9e9136 !important;
@@ -199,13 +195,13 @@ ul.buttons li {
 
 
 
-.wrapper.style2.special-alt{
+/* .wrapper.style2.special-alt{
     background-color: #025a1ff1;
     background-image: url("../images/overlay.png");
     background-size: cover;
 	color: #fff;
 	font-size: 1.5em;
-}
+} */
 
 header.special .icon {
     cursor: default;
